@@ -21,7 +21,7 @@ jobs:
           registry-url: 'https://npm.pkg.github.com'
 
       - name: Authenticate to GitHub Packages
-        run: echo "//npm.pkg.github.com/:_authToken=${{ secrets.GITHUB_TOKEN }}" > ~/.npmrc
+        run: echo "//npm.pkg.github.com/:${{ secrets.GITHUB_TOKEN }}" > ~/.npmrc
 
       - name: Install dependencies
         run: npm install
@@ -35,6 +35,6 @@ jobs:
         run: npm pkg set version='${{ github.event.inputs.version }}'
 
       - name: Publishing packages
-        run: npm publish --registry=https://npm.pkg.github.com --scope=@dukhovnyi --tag stable
+        run: npm publish --@dukhovnyi:registry=https://registry.npmjs.org/
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
