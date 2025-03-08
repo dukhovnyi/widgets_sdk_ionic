@@ -19,7 +19,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dukhovnyi/widgets_sdk_ionic"
+    "url": "https://github.com/dukhovnyi/widgets_sdk_ionic.git"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
