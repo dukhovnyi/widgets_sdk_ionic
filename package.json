@@ -1,5 +1,8 @@
 {
-  "name": "widgets_sdk_ionic",
+  "name": "@dukhovnyi/widgets_sdk_ionic",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "version": "3.0.6",
   "description": "GliaWidgets SDK is a simple and customisable framework built on top of GliaSDK. It provides all the necessary UI components to quickly integrate GliaSDK into your project.",
   "main": "dist/plugin.cjs.js",
