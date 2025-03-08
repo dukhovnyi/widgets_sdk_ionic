@@ -5,6 +5,7 @@
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
   "types": "dist/esm/index.d.ts",
+  "type": "module",
   "unpkg": "dist/plugin.js",
   "files": [
     "android/src/main/",
@@ -25,9 +26,9 @@
     "url": "https://github.com/dukhovnyi/ios-sdk-widgets/issues"
   },
   "keywords": [
-    "capacitor",
-    "plugin",
-    "native"
+    "GliaWidgets",
+    "DCS",
+    "Digital Customer Support"
   ],
   "scripts": {
     "verify": "npm run verify:ios && npm run verify:android && npm run verify:web",
