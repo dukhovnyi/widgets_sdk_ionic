@@ -77,7 +77,8 @@
   },
   "capacitor": {
     "ios": {
-      "src": "ios"
+      "src": "ios",
+      "podspec": "GliaWidgetsIonic.podspec"
     },
     "android": {
       "src": "android"
