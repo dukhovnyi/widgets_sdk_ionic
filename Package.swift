@@ -2,11 +2,11 @@
 import PackageDescription
 
 let package = Package(
-    name: "SalemoveWidgetsSdkIonic",
+    name: "GliaWidgetsIonic",
     platforms: [.iOS(.v13)],
     products: [
         .library(
-            name: "SalemoveWidgetsSdkIonic",
+            name: "GliaWidgetsIonic",
             targets: ["GliaSdkPlugin"])
     ],
     dependencies: [
